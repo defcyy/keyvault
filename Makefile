@@ -15,7 +15,7 @@ endif
 all: build
 
 gox:
-	GO get github.com/mitchellh/gox
+	${GO} get github.com/mitchellh/gox
 
 glide:
 	${GLIDE_INSTALL}
