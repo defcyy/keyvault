@@ -5,7 +5,7 @@ RUN_MODE = prod
 [database]
 DB_TYPE  = mysql
 HOST     = {{ .XDOSSQLDBHOST01 }}
-NAME     = gogs?tls=true
+NAME     = gogs
 USER     = {{ .XDOSSQLDBUSER01 }}
 PASSWD   = {{ .XDOSSQLDBPAWD01 }}
 SSL_MODE = disable
